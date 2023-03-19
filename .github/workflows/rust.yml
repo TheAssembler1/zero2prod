@@ -25,4 +25,4 @@ jobs:
     - name: rustfmt
       run: cargo fmt -- --check
     - name: cargo-audit
-      run: cargo-audit
+      run: cargo audit
